@@ -53,10 +53,10 @@
                             <span>num</span>
                         </p>
                     </div>
-                    <div class="col-6">
-                        Diagrams
-                        <reporting-chart />
-                    </div>
+<!--                    <div class="col-6">-->
+<!--                        Diagrams-->
+<!--                        <reporting-chart />-->
+<!--                    </div>-->
                 </div>
 
             </div>
@@ -77,13 +77,13 @@
     import Datepicker from 'vue3-date-time-picker';
     import 'vue3-date-time-picker/dist/main.css';
 
-    import ReportingChart from "./ReportingChart";
+    // import ReportingChart from "./ReportingChart";
 
     export default {
         name: "ReportingComponent",
         components: {
             Datepicker,
-            ReportingChart
+            // ReportingChart
         },
         // data() {
             // return {
